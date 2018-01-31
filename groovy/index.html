@@ -1,0 +1,45 @@
+<!doctype html>
+<html ng-app="app" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PRC</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+    <link rel="stylesheet" type="text/css"
+          href="http://ws1.postescanada-canadapost.ca/css/addresscomplete-2.30.min.css?key=FD98-EY14-ZN56-UN73"/>
+    <base href="./">
+</head>
+
+
+<body>
+<div class="page-wrapper" id="popupContainer">
+    <div id="header">
+
+        <div class="logo">
+            <a href="https://shop.medreleaf.com">
+                <!--<img src="https://shop.medreleaf.com/app/uploads/2017/05/header-logo.png">-->
+                <img src="assets/img/header-logo.png" alt="">
+                <!--<img id="header-logo" src="https://medreleaf.com/app/themes/medreleaf-store/dist/images/header-logo.png">-->
+            </a>
+        </div>
+        <div class="clear"></div>
+        <div id="navigation-line"></div>
+    </div>
+
+    <div class="container">
+
+        <home-menu></home-menu>
+
+        <div class="content">
+            <ui-view></ui-view>
+        </div>
+
+    </div>
+
+</div>
+
+<script type="text/javascript"
+        src="http://ws1.postescanada-canadapost.ca/js/addresscomplete-2.30.min.js?key=FD98-EY14-ZN56-UN73"></script>
+<script type="text/javascript" src="app.f11048ace3ac2ed22096.js"></script></body>
+</html>
